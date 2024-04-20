@@ -4,6 +4,8 @@ body {
   overflow: hidden;
   height: 100vh;
   width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -12,9 +14,11 @@ h1 {
 
 .todo-wrapper {
   background: white;
+  color: #ee2a7b;
   opacity: 0.8;
   padding: 2%;
-  width: fit-content;
+  width: 50%;
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 3%;
@@ -26,7 +30,8 @@ h1 {
 .todo-input {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   border-bottom: 1px solid rgb(78, 78, 78);
   padding-bottom: 25px;
   margin-bottom: 25px;
